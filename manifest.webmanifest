@@ -1,0 +1,31 @@
+{
+  "id": "./",
+  "name": "ANGOLA É UM MEME",
+  "short_name": "Angola Meme",
+  "description": "Jogo de simulação inspirado na vida, cultura e quotidiano angolano. Criado por Engenheira NVanesa.",
+  "lang": "pt-AO",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape-primary",
+  "background_color": "#101820",
+  "theme_color": "#101820",
+  "categories": [
+    "games",
+    "entertainment"
+  ],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

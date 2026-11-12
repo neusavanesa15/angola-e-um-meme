@@ -1,0 +1,42 @@
+ANGOLA É UM MEME — V26 FINAL DE DESENVOLVIMENTO
+Criadora e desenvolvedora: Engenheira NVanesa
+Origem: Angola
+
+CONTEÚDO DO PACOTE
+- index.html: jogo HTML para navegador
+- manifest.webmanifest: identificação PWA
+- sw.js: cache básico da aplicação
+- icon-192.png e icon-512.png: ícones PWA
+
+COMO TESTAR LOCALMENTE
+1. Extrair todos os ficheiros para a mesma pasta.
+2. Abrir index.html num navegador moderno.
+3. O jogo funciona como demonstração; a biblioteca Three.js é carregada de um CDN, portanto o modo 3D precisa de Internet.
+
+COMO PUBLICAR NA WEB / INSTALAR COMO PWA
+1. Publicar TODOS os ficheiros desta pasta num alojamento de site estático que forneça HTTPS.
+2. Garantir que index.html fica na raiz e que manifest.webmanifest, sw.js e os dois ícones mantêm estes nomes/caminhos.
+3. Testar o endereço HTTPS em Android e iPhone. No iPhone, abrir no Safari > Partilhar > Adicionar ao ecrã principal. No Android, usar o botão de instalação do navegador quando aparecer.
+4. Testar o salvamento, o áudio, o carregamento 3D, os links externos e o layout em vários ecrãs.
+
+LIMITAÇÕES IMPORTANTES
+- Esta edição é uma versão de demonstração/final desta etapa, não um produto comercial concluído nem uma publicação já alojada.
+- O progresso é guardado localmente no navegador/dispositivo; não existe conta nem sincronização entre aparelhos.
+- O modo 3D depende de Internet para carregar Three.js pelo CDN. O service worker guarda apenas o núcleo estático, não torna o jogo 3D totalmente offline.
+- Serviços, empregos, compras, eventos e várias interações são simulados. Nem todos os edifícios são exploráveis no 3D.
+- Não inclui pagamentos, anúncios nem compras reais. Não inserir dados bancários de jogadores nesta versão.
+- Rádio, música e vídeos abrem plataformas externas. Antes de monetizar, confirmar permissões, direitos de autor e termos de cada serviço.
+
+PUBLICAÇÃO COMO APP
+- Android: primeiro testar a PWA; para Google Play, preparar uma aplicação Android devidamente empacotada, testar em dispositivos e cumprir as regras da Play Console. A conta Play Console tem taxa de registo única de US$25 (confirmar preço/condições no momento do registo).
+- iPhone: uma PWA pode ser adicionada ao ecrã principal sem passar pela App Store. Para App Store é necessário criar uma app iOS nativa/empacotada, acrescentar funcionalidades próprias de iOS, testar e passar pela revisão. O Apple Developer Program custa US$99 por ano (confirmar preço/região no momento da inscrição). Uma simples embalagem do site pode não ser aceite.
+
+MONETIZAÇÃO — NÃO ESTÁ ACTIVADA NESTA VERSÃO
+1. Patrocínios de marcas angolanas, eventos, lojas, restaurantes e transportes, com identificação clara de publicidade.
+2. Anúncios opcionais/recompensados (por exemplo, ver um anúncio voluntariamente para ganhar um item cosmético), depois de integrar uma rede de anúncios e cumprir consentimento/privacidade.
+3. Itens cosméticos, roupas, penteados, mobília e personalização premium; pagamentos digitais dentro das lojas devem seguir as regras de facturação da Apple/Google.
+4. Versão premium sem anúncios ou passe de apoio, com benefícios claros e sem prometer vantagens injustas.
+5. Apoio voluntário da comunidade e parcerias, usando um meio de pagamento legal e disponível para a criadora.
+
+RECOMENDAÇÃO DE LANÇAMENTO
+Começar por uma versão Web/PWA gratuita e testar com um pequeno grupo. Medir erros, desempenho, sessões e retenção; melhorar o jogo e só depois investir na publicação em lojas e nos pagamentos. Em Angola, verificar antecipadamente a elegibilidade, método de pagamento e dados fiscais da conta de anúncios/pagamentos.
